@@ -2,13 +2,13 @@ import React from "react";
 import SideNavbar from "../components/sideBar.component";
 
 
-const Home: React.FC = () => {
+const Planning: React.FC = () => {
 
   return (
     <SideNavbar body={
-      <h1>page home</h1>
+        <h1>page plannings</h1>
     }/>
   );
 };
 
-export default Home;
+export default Planning;
