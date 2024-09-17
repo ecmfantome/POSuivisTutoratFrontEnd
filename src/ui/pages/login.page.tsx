@@ -1,8 +1,9 @@
 import React from "react";
 import InputComponent from "../components/input.component";
-import illustrationLogin from "../../image/Happy student-amico.svg";
-import logoApp from "../../image/Black_Illustrated_School_Logo-removebg-preview.png";
+import illustrationLogin from "../../image/suiviTutoratPresentation.jpg";
+import logoApp from "../../image/Logo.png";
 import ButtonComponent from "../components/button.component";
+import SideNavbar from "../components/sideBar.component";
 
 const Login: React.FC = () => {
   const envelopeIcon = (
@@ -30,15 +31,13 @@ const Login: React.FC = () => {
   );
 
   return (
-    <>
-      <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
+    <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
         <div
-          className="bg-white text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden"
-          style={{ maxWidth: "1000px" }}
+          className="bg-white text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden "
+          style={{ maxWidth: "800px" }}
         >
           <div className="md:flex w-full">
-            <div className="hidden md:block w-1/2 bg-green-500 py-10 px-10">
-              {/* IMAGE ICI */}
+            <div className="hidden md:block w-1/2 bg-green-500 h-[70vh]">
               <img src={illustrationLogin} alt="" />
             </div>
 
@@ -91,8 +90,7 @@ const Login: React.FC = () => {
             </div>
           </div>
         </div>
-      </div>
-    </>
+    </div>
   );
 };
 
