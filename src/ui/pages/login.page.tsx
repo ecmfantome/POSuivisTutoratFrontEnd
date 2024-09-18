@@ -3,6 +3,7 @@ import InputComponent from "../components/input.component";
 import illustrationLogin from "../../image/Happy student-amico.svg";
 import logoApp from "../../image/Black_Illustrated_School_Logo-removebg-preview.png";
 import ButtonComponent from "../components/button.component";
+import TutorProgress from "../components/tutorprogress";
 
 const Login: React.FC = () => {
   const envelopeIcon = (
@@ -31,6 +32,7 @@ const Login: React.FC = () => {
 
   return (
     <>
+     <TutorProgress nomGroup="Groupe 1" nomModule="M1" valueProgress={60}/>
       <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
         <div
           className="bg-white text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden"
