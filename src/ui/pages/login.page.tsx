@@ -32,7 +32,7 @@ const Login: React.FC = () => {
 
   return (
     <>
-     <TutorProgress nomGroup="Groupe 1" nomModule="M1" valueProgress={60}/>
+     <TutorProgress nomGroup="Groupe 3" nomModule="L2" valueProgress={20}/>
       <div className="min-w-screen min-h-screen flex items-center justify-center px-5 py-5">
         <div
           className="bg-white text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden"
